@@ -1,6 +1,4 @@
 [webservers]
-web1 ansible_ssh_host=52.58.57.39 
-web2 ansible_ssh_host=52.58.56.202
 
 [webservers:vars]
 ansible_ssh_user=remoteAdmin
