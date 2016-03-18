@@ -8,4 +8,4 @@
   - Create healthcheck
 
 - name: Stop iptables
-  service: iptables state=stopped 
+  service: name=iptables state=stopped 
