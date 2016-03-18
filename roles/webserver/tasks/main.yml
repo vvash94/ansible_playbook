@@ -1,3 +1,8 @@
 ---
 - name: Ensure Apache is installed
   yum: name=httpd  state=present
+
+- name: Deploy webpage
+  template: src=index.j2 dest=/var/www/html/index.html
+  notify:
+  - Create healthcheck 
