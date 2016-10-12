@@ -1,6 +1,6 @@
 [webservers]
+52.57.123.247
 
 [webservers:vars]
-ansible_ssh_user=remoteAdmin
-ansible_ssh_pass=remotePassword
-ansible_sudo_pass=remotePassword
+ansible_ssh_user=ubuntu
+ansible_ssh_private_key=key.pem
