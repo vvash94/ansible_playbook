@@ -1,6 +1,6 @@
 [webservers]
-52.57.174.113
+52.57.178.140
 
 [webservers:vars]
 ansible_ssh_user=centos
-ansible_ssh_private_key=key.pem
+ansible_ssh_private_key_file=key.pem
